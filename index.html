@@ -1,0 +1,14 @@
+<html>
+<script>    let jsonFileUrl='./exampleJson.json';
+let request = new XMLHttpRequest();
+request.open('GET',"./exampleJson.json");
+request.responseType='json';
+request.send();
+
+request.onload= function(e){
+const jsonFile = request.response;
+console.log(jsonFile);
+}
+</script>
+</html>
+

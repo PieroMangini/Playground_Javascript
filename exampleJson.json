@@ -1,0 +1,12 @@
+{
+    "name": "piero",
+    "parameters":[
+        {
+        "var1":"1"
+        },
+        {
+        "var1":"2"
+        }
+    ],
+    "ending":"true"
+}
